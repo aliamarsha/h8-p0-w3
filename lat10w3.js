@@ -1,8 +1,18 @@
 // Perkalian unik
 
 function perkalianUnik(arr) {
-    // you can only write your code here!
-  }
+  var result = []; 
+  for (var j = 0; j < arr.length; j++){
+    result[j] = 1; 
+      for (var i= 0; i < arr.length; i++){
+        if (i !== j){
+          result[j] *= arr[i]; 
+        }
+      }
+  } 
+  return result;
+}
+
   
   // TEST CASES
   console.log(perkalianUnik([2, 4, 6])); // [24, 12, 8]
