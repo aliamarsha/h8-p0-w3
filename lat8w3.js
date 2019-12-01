@@ -1,4 +1,4 @@
-//Pasangan Angka Terbesar BELUM SELESAI
+//Pasangan Angka Terbesar
 
 function pasanganTerbesar(num) {
     var terbesar = 0; 
