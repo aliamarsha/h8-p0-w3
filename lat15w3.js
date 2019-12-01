@@ -2,6 +2,9 @@
 
 function groupAnimals(animals) {
     var result = [[], [], []]; 
+    animals.sort();
+    console.log(animals);
+    
 }
   
   // TEST CASES
