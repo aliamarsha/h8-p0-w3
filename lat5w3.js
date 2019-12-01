@@ -5,7 +5,7 @@ function palindrome(kata) {
         if (kata[i] === kata[kata.length -1]){
             return true;
         }
-        return false
+        return false; 
     }
   }
   
