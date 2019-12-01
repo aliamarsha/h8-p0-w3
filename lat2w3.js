@@ -1,4 +1,4 @@
-//Mengakses Nilai Dalam Array
+//Tantangan Array 1: Mengakses Nilai Dalam Array
 
 function balikString(str){
     var arr = str
