@@ -1,7 +1,12 @@
 // Tentukan Deret Geometri
 function tentukanDeretGeometri(arr) {
-    // you can only write your code here!
-  }
+    for (var i = 0; i < (arr.length - 2); i++){
+        if (arr[i+1] / arr[i] !== arr[i+2] / arr[i+1]){
+            return false
+        }  
+    }
+    return true
+}
   
   // TEST CASES
   console.log(tentukanDeretGeometri([1, 3, 9, 27, 81])); // true
