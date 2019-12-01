@@ -1,4 +1,4 @@
-//Melooping menggunakan Array
+//Tantangan Array 2: Melooping menggunakan Array
 
 function dataHandling(arr){
     var result = ''
