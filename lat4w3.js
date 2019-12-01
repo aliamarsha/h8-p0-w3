@@ -1,4 +1,4 @@
-//Menggunakan Built-in Function pada Array BELUM SELESAI
+//Menggunakan Built-in Function pada Array 
 
 function dataHandling2(arr){
     arr.splice(1, 0, 'Roman Alamsyah Elsharawy') 
