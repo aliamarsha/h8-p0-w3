@@ -1,12 +1,10 @@
-// Palindrome Angka BELUM SELESAI
+// Palindrome Angka
 
 function angkaPalindrome(num) {
-    // you can only write your code here!
-    for (var i=0; i < num; i++){
-        if (num[i] === kata[kata.length -1]){
-            return true;
-        }
-        return false
+    var arr = Array.from(String(num), Number); 
+    var length = arr.length; 
+    if (length === 1 && num < 9){
+        return num + 1; 
     }
   }
   
