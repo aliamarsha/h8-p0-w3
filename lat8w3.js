@@ -1,8 +1,16 @@
 //Pasangan Angka Terbesar BELUM SELESAI
 
 function pasanganTerbesar(num) {
-    var newNum = num.toString(); 
+    var terbesar = 0; 
+    var string = num.toString(); 
 
+    for (var i=0; i < string.length; i++){
+      var pasangan = parseInt(string.slice(i, i+2)); 
+      if (pasangan > terbesar){
+        terbesar = pasangan; 
+      }
+    }
+    return terbesar; 
   }
   
   // TEST CASES
