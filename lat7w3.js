@@ -1,9 +1,9 @@
 //Hitung Jumlah Kata
 
 function hitungJumlahKata(kalimat) {
-    var newArray = kalimat.trim().split(" ")
-    var arrayLength = newArray.length
-    return arrayLength
+    var newArray = kalimat.trim().split(" "); 
+    var arrayLength = newArray.length; 
+    return arrayLength;
   }
   
   // TEST CASES
